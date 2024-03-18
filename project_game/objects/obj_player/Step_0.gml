@@ -112,11 +112,20 @@ if (andando=true){
 if (keyboard_check_released(ord("P"))){
 hairColorChoosen += 1
 shirtColorChoosen += 1
+skinColorChoosen += 1
+pantsColorChoosen += 1
 }
 if (keyboard_check_released(ord("O"))){
 hairColorChoosen -= 1
 shirtColorChoosen -= 1
+skinColorChoosen -= 1
+pantsColorChoosen -= 1
 }
+//SKIN COLOR
+if skinColorChoosen = 1 {skinColor = make_color_rgb(220,201,176)} //normal skin
+if skinColorChoosen = 2 {skinColor = make_color_rgb(196,179,157)} //normal skin
+if skinColorChoosen = 3 {skinColor = make_color_rgb(150,137,120)} //normal skin
+if skinColorChoosen = 4 {skinColor = make_color_rgb(91,83,73)} //normal skin
 
 //HAIR COLORS
 //hair white and gray colors
@@ -213,3 +222,51 @@ if shirtColorChoosen = 35 {shirtColor = make_color_rgb(48,25,52)} //dark purple
 if shirtColorChoosen = 36 {shirtColor = make_color_rgb(255,0,255)} //fuchsia
 if shirtColorChoosen = 37 {shirtColor = make_color_rgb(255,192,203)} //pink
 if shirtColorChoosen = 38 {shirtColor = make_color_rgb(243,58,106)} //rose
+
+//pants COLORS
+//pants white and gray colors
+if pantsColorChoosen = 0 {pantsColor = make_color_rgb(255,250,250)} //white
+if pantsColorChoosen = 1 {pantsColor = make_color_rgb(226,223,210)} //pearl
+if pantsColorChoosen = 2 {pantsColor = make_color_rgb(237,234,222)} //alabaster
+if pantsColorChoosen = 3 {pantsColor = make_color_rgb(80,80,80)} //gray
+if pantsColorChoosen = 4 {pantsColor = make_color_rgb(113,121,126)} //steel gray
+//pants black colors
+if pantsColorChoosen = 5 {pantsColor = make_color_rgb(0,0,0)} //black
+if pantsColorChoosen = 6 {pantsColor = make_color_rgb(40,40,43)} //matte black
+//pants brown colors
+if pantsColorChoosen = 7 {pantsColor = make_color_rgb(110,38,14)} //brown
+if pantsColorChoosen = 8 {pantsColor = make_color_rgb(111,78,55)} //coffee
+if pantsColorChoosen = 9 {pantsColor = make_color_rgb(92,64,51)} //dark brown
+//pants red and orange and yellow colors
+if pantsColorChoosen = 10 {pantsColor = make_color_rgb(255,0,0)} //red
+if pantsColorChoosen = 11 {pantsColor = make_color_rgb(74,4,4)} //blood
+if pantsColorChoosen = 12 {pantsColor = make_color_rgb(139,0,0)} //dark red
+if pantsColorChoosen = 13 {pantsColor = make_color_rgb(255,36,0)} //scarlet
+if pantsColorChoosen = 14 {pantsColor = make_color_rgb(243,229,171)} //vanilla
+if pantsColorChoosen = 15 {pantsColor = make_color_rgb(255,255,0)} //yellow
+if pantsColorChoosen = 16 {pantsColor = make_color_rgb(255,234,0)} //bright yellow
+if pantsColorChoosen = 17 {pantsColor = make_color_rgb(255,250,160)} //pastel yellow
+if pantsColorChoosen = 18 {pantsColor = make_color_rgb(255,170,51)} //yellow orange
+if pantsColorChoosen = 19 {pantsColor = make_color_rgb(255,125,0)} //orange
+if pantsColorChoosen = 20 {pantsColor = make_color_rgb(204,85,0)} //burnt orange
+if pantsColorChoosen = 21 {pantsColor = make_color_rgb(255,117,24)} //pumpkin orange
+//pants green colors
+if pantsColorChoosen = 22 {pantsColor = make_color_rgb(125,255,0)} //light green
+if pantsColorChoosen = 23 {pantsColor = make_color_rgb(0,255,0)} //green
+if pantsColorChoosen = 24 {pantsColor = make_color_rgb(2,48,32)} //dark green
+if pantsColorChoosen = 25 {pantsColor = make_color_rgb(50,205,50)} //lime green
+//pants blue colors
+if pantsColorChoosen = 26 {pantsColor = make_color_rgb(0,255,125)} //turquoise
+if pantsColorChoosen = 27 {pantsColor = make_color_rgb(0,255,255)} //blue cyan
+if pantsColorChoosen = 28 {pantsColor = make_color_rgb(0,125,255)} //blue ocean
+if pantsColorChoosen = 29 {pantsColor = make_color_rgb(0,0,255)} //blue
+if pantsColorChoosen = 30 {pantsColor = make_color_rgb(0,0,139)} //dark blue
+if pantsColorChoosen = 31 {pantsColor = make_color_rgb(15,82,186)} //sapphire blue
+//pants purple and pink colors
+if pantsColorChoosen = 32 {pantsColor = make_color_rgb(125,0,255)} //violet
+if pantsColorChoosen = 33 {pantsColor = make_color_rgb(255,0,255)} //magent
+if pantsColorChoosen = 34 {pantsColor = make_color_rgb(255,0,125)} //raspberry
+if pantsColorChoosen = 35 {pantsColor = make_color_rgb(48,25,52)} //dark purple
+if pantsColorChoosen = 36 {pantsColor = make_color_rgb(255,0,255)} //fuchsia
+if pantsColorChoosen = 37 {pantsColor = make_color_rgb(255,192,203)} //pink
+if pantsColorChoosen = 38 {pantsColor = make_color_rgb(243,58,106)} //rose
