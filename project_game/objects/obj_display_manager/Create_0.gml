@@ -8,7 +8,7 @@ temperature_celsius=27
 depth=-100
 resolution_width = 800
 resolution_height = 600
-resolution=0
+
 surface_resize(application_surface,resolution_width,resolution_height)
 window_set_size(resolution_width,resolution_height)
 window_center()

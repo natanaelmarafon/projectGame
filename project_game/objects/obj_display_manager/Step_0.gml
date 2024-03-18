@@ -142,6 +142,11 @@ temperature_celsius=0
 }
 
 
+if (resolution_width > 800){
+valor_ajustar_x = resolution_width - 800
+}
+
+
 
 
 
