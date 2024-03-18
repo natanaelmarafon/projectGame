@@ -5,6 +5,15 @@ correndo=false
 
 action = "Idle";
 face = "D";
+hair=1
+shirt=1
 
-hair=0
+hairColorChoosen = 1
+hairColor = make_color_rgb(0,0,0)
+
+shirtColorChoosen = 0
+shirtColor = make_color_rgb(0,0,0)
+
+
+
 
