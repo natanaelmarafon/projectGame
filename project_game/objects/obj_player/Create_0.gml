@@ -9,6 +9,7 @@ hair=1
 skin=1
 shirt=1
 pants=1
+shoes=1
 
 hairColorChoosen = 1
 hairColor = make_color_rgb(0,0,0)
@@ -20,6 +21,9 @@ shirtColor = make_color_rgb(0,0,0)
 skinColorChoosen = 1
 skinColor = make_color_rgb(0,0,0)
 
-pantsColorChoosen = 1
+pantsColorChoosen = 2
 pantsColor = make_color_rgb(0,0,0)
+
+shoesColorChoosen = 3
+shoesColor = make_color_rgb(0,0,0)
 

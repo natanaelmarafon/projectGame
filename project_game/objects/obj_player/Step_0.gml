@@ -112,14 +112,16 @@ if (andando=true){
 if (keyboard_check_released(ord("P"))){
 hairColorChoosen += 1
 shirtColorChoosen += 1
-skinColorChoosen += 1
+//skinColorChoosen += 1
 pantsColorChoosen += 1
+shoesColorChoosen += 1
 }
 if (keyboard_check_released(ord("O"))){
 hairColorChoosen -= 1
 shirtColorChoosen -= 1
-skinColorChoosen -= 1
+//skinColorChoosen -= 1
 pantsColorChoosen -= 1
+shoesColorChoosen -= 1
 }
 //SKIN COLOR
 if skinColorChoosen = 1 {skinColor = make_color_rgb(220,201,176)} //normal skin
@@ -223,7 +225,7 @@ if shirtColorChoosen = 36 {shirtColor = make_color_rgb(255,0,255)} //fuchsia
 if shirtColorChoosen = 37 {shirtColor = make_color_rgb(255,192,203)} //pink
 if shirtColorChoosen = 38 {shirtColor = make_color_rgb(243,58,106)} //rose
 
-//pants COLORS
+//PANTS COLORS
 //pants white and gray colors
 if pantsColorChoosen = 0 {pantsColor = make_color_rgb(255,250,250)} //white
 if pantsColorChoosen = 1 {pantsColor = make_color_rgb(226,223,210)} //pearl
@@ -269,4 +271,52 @@ if pantsColorChoosen = 34 {pantsColor = make_color_rgb(255,0,125)} //raspberry
 if pantsColorChoosen = 35 {pantsColor = make_color_rgb(48,25,52)} //dark purple
 if pantsColorChoosen = 36 {pantsColor = make_color_rgb(255,0,255)} //fuchsia
 if pantsColorChoosen = 37 {pantsColor = make_color_rgb(255,192,203)} //pink
+if pantsColorChoosen = 38 {pantsColor = make_color_rgb(243,58,106)} //rose
+
+//SHOES COLORS
+//shoes white and gray colors
+if shoesColorChoosen = 0 {shoesColor = make_color_rgb(255,250,250)} //white
+if shoesColorChoosen = 1 {shoesColor = make_color_rgb(226,223,210)} //pearl
+if shoesColorChoosen = 2 {shoesColor = make_color_rgb(237,234,222)} //alabaster
+if shoesColorChoosen = 3 {shoesColor = make_color_rgb(80,80,80)} //gray
+if shoesColorChoosen = 4 {shoesColor = make_color_rgb(113,121,126)} //steel gray
+//shoes black colors
+if shoesColorChoosen = 5 {shoesColor = make_color_rgb(0,0,0)} //black
+if shoesColorChoosen = 6 {shoesColor = make_color_rgb(40,40,43)} //matte black
+//shoes brown colors
+if shoesColorChoosen = 7 {shoesColor = make_color_rgb(110,38,14)} //brown
+if shoesColorChoosen = 8 {shoesColor = make_color_rgb(111,78,55)} //coffee
+if shoesColorChoosen = 9 {shoesColor = make_color_rgb(92,64,51)} //dark brown
+//shoes red and orange and yellow colors
+if shoesColorChoosen = 10 {shoesColor = make_color_rgb(255,0,0)} //red
+if shoesColorChoosen = 11 {shoesColor = make_color_rgb(74,4,4)} //blood
+if shoesColorChoosen = 12 {shoesColor = make_color_rgb(139,0,0)} //dark red
+if shoesColorChoosen = 13 {shoesColor = make_color_rgb(255,36,0)} //scarlet
+if shoesColorChoosen = 14 {shoesColor = make_color_rgb(243,229,171)} //vanilla
+if shoesColorChoosen = 15 {shoesColor = make_color_rgb(255,255,0)} //yellow
+if shoesColorChoosen = 16 {shoesColor = make_color_rgb(255,234,0)} //bright yellow
+if shoesColorChoosen = 17 {shoesColor = make_color_rgb(255,250,160)} //pastel yellow
+if shoesColorChoosen = 18 {shoesColor = make_color_rgb(255,170,51)} //yellow orange
+if shoesColorChoosen = 19 {shoesColor = make_color_rgb(255,125,0)} //orange
+if shoesColorChoosen = 20 {shoesColor = make_color_rgb(204,85,0)} //burnt orange
+if shoesColorChoosen = 21 {shoesColor = make_color_rgb(255,117,24)} //pumpkin orange
+//shoes green colors
+if shoesColorChoosen = 22 {shoesColor = make_color_rgb(125,255,0)} //light green
+if shoesColorChoosen = 23 {shoesColor = make_color_rgb(0,255,0)} //green
+if shoesColorChoosen = 24 {shoesColor = make_color_rgb(2,48,32)} //dark green
+if shoesColorChoosen = 25 {shoesColor = make_color_rgb(50,205,50)} //lime green
+//shoes blue colors
+if shoesColorChoosen = 26 {shoesColor = make_color_rgb(0,255,125)} //turquoise
+if shoesColorChoosen = 27 {shoesColor = make_color_rgb(0,255,255)} //blue cyan
+if shoesColorChoosen = 28 {shoesColor = make_color_rgb(0,125,255)} //blue ocean
+if shoesColorChoosen = 29 {shoesColor = make_color_rgb(0,0,255)} //blue
+if shoesColorChoosen = 30 {shoesColor = make_color_rgb(0,0,139)} //dark blue
+if shoesColorChoosen = 31 {shoesColor = make_color_rgb(15,82,186)} //sapphire blue
+//shoes purple and pink colors
+if shoesColorChoosen = 32 {shoesColor = make_color_rgb(125,0,255)} //violet
+if shoesColorChoosen = 33 {shoesColor = make_color_rgb(255,0,255)} //magent
+if shoesColorChoosen = 34 {shoesColor = make_color_rgb(255,0,125)} //raspberry
+if shoesColorChoosen = 35 {shoesColor = make_color_rgb(48,25,52)} //dark purple
+if shoesColorChoosen = 36 {shoesColor = make_color_rgb(255,0,255)} //fuchsia
+if shoesColorChoosen = 37 {shoesColor = make_color_rgb(255,192,203)} //pink
 if pantsColorChoosen = 38 {pantsColor = make_color_rgb(243,58,106)} //rose

@@ -71,3 +71,21 @@ if ((pants=1 and action = "Walk" and face = "UL") or (pants=1 and action = "Idle
 	draw_sprite_ext(sprPantsPlayerUL,-1,obj_player.x,obj_player.y,1,1,0,pantsColor,255)}
 if ((pants=1 and action = "Walk" and face = "UR") or (pants=1 and action = "Idle" and face = "UR")){
 	draw_sprite_ext(sprPantsPlayerUR,-1,obj_player.x,obj_player.y,1,1,0,pantsColor,255)}
+	
+//shoes draw
+if ((shoes=1 and action = "Walk" and face = "D") or (shoes=1 and action = "Idle" and face = "D")){
+	draw_sprite_ext(sprShoesPlayerD,-1,obj_player.x,obj_player.y,1,1,0,shoesColor,255)}
+if ((shoes=1 and action = "Walk" and face = "DL") or (shoes=1 and action = "Idle" and face = "DL")){
+	draw_sprite_ext(sprShoesPlayerDL,-1,obj_player.x,obj_player.y,1,1,0,shoesColor,255)}
+if ((shoes=1 and action = "Walk" and face = "DR") or (shoes=1 and action = "Idle" and face = "DR")){
+	draw_sprite_ext(sprShoesPlayerDR,-1,obj_player.x,obj_player.y,1,1,0,shoesColor,255)}
+if ((shoes=1 and action = "Walk" and face = "L") or (shoes=1 and action = "Idle" and face = "L")){
+	draw_sprite_ext(sprShoesPlayerL,-1,obj_player.x,obj_player.y,1,1,0,shoesColor,255)}
+if ((shoes=1 and action = "Walk" and face = "R") or (shoes=1 and action = "Idle" and face = "R")){
+	draw_sprite_ext(sprShoesPlayerR,-1,obj_player.x,obj_player.y,1,1,0,shoesColor,255)}
+if ((shoes=1 and action = "Walk" and face = "U") or (shoes=1 and action = "Idle" and face = "U")){
+	draw_sprite_ext(sprShoesPlayerU,-1,obj_player.x,obj_player.y,1,1,0,shoesColor,255)}
+if ((shoes=1 and action = "Walk" and face = "UL") or (shoes=1 and action = "Idle" and face = "UL")){
+	draw_sprite_ext(sprShoesPlayerUL,-1,obj_player.x,obj_player.y,1,1,0,shoesColor,255)}
+if ((shoes=1 and action = "Walk" and face = "UR") or (shoes=1 and action = "Idle" and face = "UR")){
+	draw_sprite_ext(sprShoesPlayerUR,-1,obj_player.x,obj_player.y,1,1,0,shoesColor,255)}
