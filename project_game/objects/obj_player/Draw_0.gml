@@ -17,6 +17,24 @@ if ((skin=1 and action = "Walk" and face = "UL") or (skin=1 and action = "Idle" 
 	draw_sprite_ext(sprPlayerWalkUL,-1,obj_player.x,obj_player.y,1,1,0,skinColor,255)}
 if ((skin=1 and action = "Walk" and face = "UR") or (skin=1 and action = "Idle" and face = "UR")){
 	draw_sprite_ext(sprPlayerWalkUR,-1,obj_player.x,obj_player.y,1,1,0,skinColor,255)}
+	
+//eyes draw
+if ((eyes=1 and action = "Walk" and face = "D") or (eyes=1 and action = "Idle" and face = "D")){
+	draw_sprite_ext(sprEyesPlayerD,-1,obj_player.x,obj_player.y,1,1,0,eyesColor,255)}
+if ((eyes=1 and action = "Walk" and face = "DL") or (eyes=1 and action = "Idle" and face = "DL")){
+	draw_sprite_ext(sprEyesPlayerDL,-1,obj_player.x,obj_player.y,1,1,0,eyesColor,255)}
+if ((eyes=1 and action = "Walk" and face = "DR") or (eyes=1 and action = "Idle" and face = "DR")){
+	draw_sprite_ext(sprEyesPlayerDR,-1,obj_player.x,obj_player.y,1,1,0,eyesColor,255)}
+if ((eyes=1 and action = "Walk" and face = "L") or (eyes=1 and action = "Idle" and face = "L")){
+	draw_sprite_ext(sprEyesPlayerL,-1,obj_player.x,obj_player.y,1,1,0,eyesColor,255)}
+if ((eyes=1 and action = "Walk" and face = "R") or (eyes=1 and action = "Idle" and face = "R")){
+	draw_sprite_ext(sprEyesPlayerR,-1,obj_player.x,obj_player.y,1,1,0,eyesColor,255)}
+if ((eyes=1 and action = "Walk" and face = "U") or (eyes=1 and action = "Idle" and face = "U")){
+	draw_sprite_ext(sprEyesPlayerU,-1,obj_player.x,obj_player.y,1,1,0,eyesColor,255)}
+if ((eyes=1 and action = "Walk" and face = "UL") or (eyes=1 and action = "Idle" and face = "UL")){
+	draw_sprite_ext(sprEyesPlayerUL,-1,obj_player.x,obj_player.y,1,1,0,eyesColor,255)}
+if ((eyes=1 and action = "Walk" and face = "UR") or (eyes=1 and action = "Idle" and face = "UR")){
+	draw_sprite_ext(sprEyesPlayerUR,-1,obj_player.x,obj_player.y,1,1,0,eyesColor,255)}
 
 //hair draw
 if ((hair=1 and action = "Walk" and face = "D") or (hair=1 and action = "Idle" and face = "D")){
