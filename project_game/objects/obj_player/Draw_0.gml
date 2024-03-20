@@ -29,12 +29,18 @@ if ((eyes=1 and action = "Walk" and face = "L") or (eyes=1 and action = "Idle" a
 	draw_sprite_ext(sprEyesPlayerL,-1,obj_player.x,obj_player.y,1,1,0,eyesColor,255)}
 if ((eyes=1 and action = "Walk" and face = "R") or (eyes=1 and action = "Idle" and face = "R")){
 	draw_sprite_ext(sprEyesPlayerR,-1,obj_player.x,obj_player.y,1,1,0,eyesColor,255)}
-if ((eyes=1 and action = "Walk" and face = "U") or (eyes=1 and action = "Idle" and face = "U")){
-	draw_sprite_ext(sprEyesPlayerU,-1,obj_player.x,obj_player.y,1,1,0,eyesColor,255)}
-if ((eyes=1 and action = "Walk" and face = "UL") or (eyes=1 and action = "Idle" and face = "UL")){
-	draw_sprite_ext(sprEyesPlayerUL,-1,obj_player.x,obj_player.y,1,1,0,eyesColor,255)}
-if ((eyes=1 and action = "Walk" and face = "UR") or (eyes=1 and action = "Idle" and face = "UR")){
-	draw_sprite_ext(sprEyesPlayerUR,-1,obj_player.x,obj_player.y,1,1,0,eyesColor,255)}
+	
+//eyes lenses draw
+if ((eyesLenses=1 and action = "Walk" and face = "D") or (eyesLenses=1 and action = "Idle" and face = "D")){
+	draw_sprite_ext(sprEyesLensesPlayerD,-1,obj_player.x,obj_player.y,1,1,0,eyesLensesColor,255)}
+if ((eyesLenses=1 and action = "Walk" and face = "DL") or (eyesLenses=1 and action = "Idle" and face = "DL")){
+	draw_sprite_ext(sprEyesLensesPlayerDL,-1,obj_player.x,obj_player.y,1,1,0,eyesLensesColor,255)}
+if ((eyesLenses=1 and action = "Walk" and face = "DR") or (eyesLenses=1 and action = "Idle" and face = "DR")){
+	draw_sprite_ext(sprEyesLensesPlayerDR,-1,obj_player.x,obj_player.y,1,1,0,eyesLensesColor,255)}
+if ((eyesLenses=1 and action = "Walk" and face = "L") or (eyesLenses=1 and action = "Idle" and face = "L")){
+	draw_sprite_ext(sprEyesLensesPlayerL,-1,obj_player.x,obj_player.y,1,1,0,eyesLensesColor,255)}
+if ((eyesLenses=1 and action = "Walk" and face = "R") or (eyesLenses=1 and action = "Idle" and face = "R")){
+	draw_sprite_ext(sprEyesLensesPlayerR,-1,obj_player.x,obj_player.y,1,1,0,eyesLensesColor,255)}
 
 //hair draw
 if ((hair=1 and action = "Walk" and face = "D") or (hair=1 and action = "Idle" and face = "D")){

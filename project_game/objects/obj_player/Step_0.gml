@@ -112,10 +112,11 @@ if (andando=true){
 if (keyboard_check_released(ord("P"))){
 hairColorChoosen += 1
 shirtColorChoosen += 1
-eyesColorChoosen += 1
 //skinColorChoosen += 1
 pantsColorChoosen += 1
 shoesColorChoosen += 1
+//eyesColorChoosen += 1
+//eyesLensesColorChoosen += 1
 }
 if (keyboard_check_released(ord("O"))){
 hairColorChoosen -= 1
@@ -123,7 +124,8 @@ shirtColorChoosen -= 1
 //skinColorChoosen -= 1
 pantsColorChoosen -= 1
 shoesColorChoosen -= 1
-eyesColorChoosen -= 1
+//eyesColorChoosen -= 1
+//eyesLensesColorChoosen -= 1
 }
 //SKIN COLOR
 if skinColorChoosen = 1 {skinColor = make_color_rgb(220,201,176)} //normal skin
@@ -134,50 +136,29 @@ if skinColorChoosen = 4 {skinColor = make_color_rgb(91,83,73)} //normal skin
 //EYES COLORS
 //eyes white and gray colors
 if eyesColorChoosen = 0 {eyesColor = make_color_rgb(255,250,250)} //white
-if eyesColorChoosen = 1 {eyesColor = make_color_rgb(226,223,210)} //pearl
-if eyesColorChoosen = 2 {eyesColor = make_color_rgb(237,234,222)} //alabaster
-if eyesColorChoosen = 3 {eyesColor = make_color_rgb(80,80,80)} //gray
-if eyesColorChoosen = 4 {eyesColor = make_color_rgb(113,121,126)} //steel gray
 //eyes black colors
-if eyesColorChoosen = 5 {eyesColor = make_color_rgb(0,0,0)} //black
-if eyesColorChoosen = 6 {eyesColor = make_color_rgb(40,40,43)} //matte black
-//eyes brown colors
-if eyesColorChoosen = 7 {eyesColor = make_color_rgb(110,38,14)} //brown
-if eyesColorChoosen = 8 {eyesColor = make_color_rgb(111,78,55)} //coffee
-if eyesColorChoosen = 9 {eyesColor = make_color_rgb(92,64,51)} //dark brown
+if eyesColorChoosen = 1 {eyesColor = make_color_rgb(0,0,0)} //black
 //eyes red and orange and yellow colors
-if eyesColorChoosen = 10 {eyesColor = make_color_rgb(255,0,0)} //red
-if eyesColorChoosen = 11 {eyesColor = make_color_rgb(74,4,4)} //blood
-if eyesColorChoosen = 12 {eyesColor = make_color_rgb(139,0,0)} //dark red
-if eyesColorChoosen = 13 {eyesColor = make_color_rgb(255,36,0)} //scarlet
-if eyesColorChoosen = 14 {eyesColor = make_color_rgb(243,229,171)} //vanilla
-if eyesColorChoosen = 15 {eyesColor = make_color_rgb(255,255,0)} //yellow
-if eyesColorChoosen = 16 {eyesColor = make_color_rgb(255,234,0)} //bright yellow
-if eyesColorChoosen = 17 {eyesColor = make_color_rgb(255,250,160)} //pastel yellow
-if eyesColorChoosen = 18 {eyesColor = make_color_rgb(255,170,51)} //yellow orange
-if eyesColorChoosen = 19 {eyesColor = make_color_rgb(255,125,0)} //orange
-if eyesColorChoosen = 20 {eyesColor = make_color_rgb(204,85,0)} //burnt orange
-if eyesColorChoosen = 21 {eyesColor = make_color_rgb(255,117,24)} //pumpkin orange
-//eyes green colors
-if eyesColorChoosen = 22 {eyesColor = make_color_rgb(125,255,0)} //light green
-if eyesColorChoosen = 23 {eyesColor = make_color_rgb(0,255,0)} //green
-if eyesColorChoosen = 24 {eyesColor = make_color_rgb(2,48,32)} //dark green
-if eyesColorChoosen = 25 {eyesColor = make_color_rgb(50,205,50)} //lime green
-//eyes blue colors
-if eyesColorChoosen = 26 {eyesColor = make_color_rgb(0,255,125)} //turquoise
-if eyesColorChoosen = 27 {eyesColor = make_color_rgb(0,255,255)} //blue cyan
-if eyesColorChoosen = 28 {eyesColor = make_color_rgb(0,125,255)} //blue ocean
-if eyesColorChoosen = 29 {eyesColor = make_color_rgb(0,0,255)} //blue
-if eyesColorChoosen = 30 {eyesColor = make_color_rgb(0,0,139)} //dark blue
-if eyesColorChoosen = 31 {eyesColor = make_color_rgb(15,82,186)} //sapphire blue
-//eyes purple and pink colors
-if eyesColorChoosen = 32 {eyesColor = make_color_rgb(125,0,255)} //violet
-if eyesColorChoosen = 33 {eyesColor = make_color_rgb(255,0,255)} //magent
-if eyesColorChoosen = 34 {eyesColor = make_color_rgb(255,0,125)} //raspberry
-if eyesColorChoosen = 35 {eyesColor = make_color_rgb(48,25,52)} //dark purple
-if eyesColorChoosen = 36 {eyesColor = make_color_rgb(255,0,255)} //fuchsia
-if eyesColorChoosen = 37 {eyesColor = make_color_rgb(255,192,203)} //pink
-if pantsColorChoosen = 38 {pantsColor = make_color_rgb(243,58,106)} //rose
+if eyesColorChoosen = 2 {eyesColor = make_color_rgb(255,0,0)} //red
+
+
+//EYES LENSES COLORS
+//eyesLenses black colors
+if eyesLensesColorChoosen = 0 {eyesLensesColor = make_color_rgb(0,0,0)} //black
+//eyesLenses brown colors
+if eyesLensesColorChoosen = 1 {eyesLensesColor = make_color_rgb(92,64,51)} //dark brown
+//eyesLenses red and orange and yellow colors
+if eyesLensesColorChoosen = 2 {eyesLensesColor = make_color_rgb(255,0,0)} //red
+if eyesLensesColorChoosen = 3 {eyesLensesColor = make_color_rgb(255,255,0)} //yellow mudar
+if eyesLensesColorChoosen = 4 {eyesLensesColor = make_color_rgb(255,125,0)} //orange
+//eyesLenses green colors
+if eyesLensesColorChoosen = 5 {eyesLensesColor = make_color_rgb(50,205,50)} //lime green
+//eyesLenses blue colors
+if eyesLensesColorChoosen = 6 {eyesLensesColor = make_color_rgb(0,0,255)} //blue
+//eyesLenses purple and pink colors
+if eyesLensesColorChoosen = 7 {eyesLensesColor = make_color_rgb(255,0,125)} //raspberry
+if eyesLensesColorChoosen = 8 {eyesLensesColor = make_color_rgb(255,0,255)} //fuchsia
+
 
 //HAIR COLORS
 //hair white and gray colors
