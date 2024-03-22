@@ -115,6 +115,7 @@ shirtColorChoosen += 1
 //skinColorChoosen += 1
 pantsColorChoosen += 1
 shoesColorChoosen += 1
+//mouthColorChoosen += 1
 //eyesColorChoosen += 1
 //eyesLensesColorChoosen += 1
 }
@@ -124,6 +125,7 @@ shirtColorChoosen -= 1
 //skinColorChoosen -= 1
 pantsColorChoosen -= 1
 shoesColorChoosen -= 1
+//mouthColorChoosen -= 1
 //eyesColorChoosen -= 1
 //eyesLensesColorChoosen -= 1
 }
@@ -159,6 +161,13 @@ if eyesLensesColorChoosen = 6 {eyesLensesColor = make_color_rgb(0,0,255)} //blue
 if eyesLensesColorChoosen = 7 {eyesLensesColor = make_color_rgb(255,0,125)} //raspberry
 if eyesLensesColorChoosen = 8 {eyesLensesColor = make_color_rgb(255,0,255)} //fuchsia
 
+//Mouth COLORS
+//mouth black colors
+if mouthColorChoosen = 0 {mouthColor = make_color_rgb(0,0,0)} //black
+//mouth red and orange and yellow colors
+if mouthColorChoosen = 1 {mouthColor = make_color_rgb(255,0,0)} //red
+//mouth purple and pink colors
+if mouthColorChoosen = 2 {mouthColor = make_color_rgb(255,0,255)} //fuchsia
 
 //HAIR COLORS
 //hair white and gray colors

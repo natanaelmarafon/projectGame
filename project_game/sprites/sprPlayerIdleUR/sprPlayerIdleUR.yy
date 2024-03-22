@@ -26,7 +26,7 @@
   "origin":9,
   "parent":{
     "name":"sprPlayerIdleUR",
-    "path":"folders/Sprites/player/sprPlayerIdleUR.yy",
+    "path":"folders/Sprites/player/sprPlayer/sprPlayerIdleUR.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

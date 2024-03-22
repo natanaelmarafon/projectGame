@@ -33,7 +33,7 @@
   "origin":9,
   "parent":{
     "name":"sprPlayerIdleUL",
-    "path":"folders/Sprites/player/sprPlayerIdleUL.yy",
+    "path":"folders/Sprites/player/sprPlayer/sprPlayerIdleUL.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

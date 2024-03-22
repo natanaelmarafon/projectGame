@@ -30,6 +30,18 @@ if ((eyes=1 and action = "Walk" and face = "L") or (eyes=1 and action = "Idle" a
 if ((eyes=1 and action = "Walk" and face = "R") or (eyes=1 and action = "Idle" and face = "R")){
 	draw_sprite_ext(sprEyesPlayerR,-1,obj_player.x,obj_player.y,1,1,0,eyesColor,255)}
 	
+//mouth draw
+if ((mouth=1 and action = "Walk" and face = "D") or (mouth=1 and action = "Idle" and face = "D")){
+	draw_sprite_ext(sprMouthPlayerD,-1,obj_player.x,obj_player.y,1,1,0,mouthColor,255)}
+if ((mouth=1 and action = "Walk" and face = "DL") or (mouth=1 and action = "Idle" and face = "DL")){
+	draw_sprite_ext(sprMouthPlayerDL,-1,obj_player.x,obj_player.y,1,1,0,mouthColor,255)}
+if ((mouth=1 and action = "Walk" and face = "DR") or (mouth=1 and action = "Idle" and face = "DR")){
+	draw_sprite_ext(sprMouthPlayerDR,-1,obj_player.x,obj_player.y,1,1,0,mouthColor,255)}
+if ((mouth=1 and action = "Walk" and face = "L") or (mouth=1 and action = "Idle" and face = "L")){
+	draw_sprite_ext(sprMouthPlayerL,-1,obj_player.x,obj_player.y,1,1,0,mouthColor,255)}
+if ((mouth=1 and action = "Walk" and face = "R") or (mouth=1 and action = "Idle" and face = "R")){
+	draw_sprite_ext(sprMouthPlayerR,-1,obj_player.x,obj_player.y,1,1,0,mouthColor,255)}
+	
 //eyes lenses draw
 if ((eyesLenses=1 and action = "Walk" and face = "D") or (eyesLenses=1 and action = "Idle" and face = "D")){
 	draw_sprite_ext(sprEyesLensesPlayerD,-1,obj_player.x,obj_player.y,1,1,0,eyesLensesColor,255)}
