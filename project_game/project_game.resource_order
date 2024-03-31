@@ -1,5 +1,6 @@
 {
   "FolderOrderSettings":[
+    {"name":"environment","order":8,"path":"folders/Sprites/environment.yy",},
     {"name":"misc","order":7,"path":"folders/Sprites/misc.yy",},
     {"name":"player","order":1,"path":"folders/Sprites/player.yy",},
     {"name":"sprPlayer","order":7,"path":"folders/Sprites/player/sprPlayer.yy",},
@@ -27,13 +28,10 @@
   "ResourceOrderSettings":[
     {"name":"DateFont","order":2,"path":"fonts/DateFont/DateFont.yy",},
     {"name":"WatchFont","order":1,"path":"fonts/WatchFont/WatchFont.yy",},
-    {"name":"obj_asfalto","order":4,"path":"objects/obj_asfalto/obj_asfalto.yy",},
-    {"name":"obj_asfalto2","order":5,"path":"objects/obj_asfalto2/obj_asfalto2.yy",},
+    {"name":"obj_asfalto","order":5,"path":"objects/obj_asfalto/obj_asfalto.yy",},
     {"name":"obj_casa","order":3,"path":"objects/obj_casa/obj_casa.yy",},
     {"name":"obj_display_manager","order":2,"path":"objects/obj_display_manager/obj_display_manager.yy",},
     {"name":"obj_player","order":1,"path":"objects/obj_player/obj_player.yy",},
-    {"name":"spr_asfalto","order":4,"path":"sprites/spr_asfalto/spr_asfalto.yy",},
-    {"name":"spr_asfalto2","order":5,"path":"sprites/spr_asfalto2/spr_asfalto2.yy",},
     {"name":"spr_bloco","order":3,"path":"sprites/spr_bloco/spr_bloco.yy",},
     {"name":"spr_casa","order":2,"path":"sprites/spr_casa/spr_casa.yy",},
     {"name":"sprEyesLensesPlayerDL","order":1,"path":"sprites/sprEyesLensesPlayerDL/sprEyesLensesPlayerDL.yy",},
